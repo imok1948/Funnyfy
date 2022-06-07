@@ -1,9 +1,9 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name": "Cenafy",
+  "name": "FunnyFy",
   "version": "1.1.0",
-  "description": "And his name is John Cena",
+  "description": "Just to enjoy some funny fy",
 
   "content_scripts": [
     {
@@ -13,5 +13,10 @@
   ],
 
   "permissions": ["http://*/*", "https://*/*"],
-  "manifest_version": 2
+  "manifest_version": 2,
+  "icons": {
+    "16": "dove.png",
+    "48": "dove.png",
+    "128": "dove.png"
+  }
 }
